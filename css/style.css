@@ -11,6 +11,10 @@ body {
     margin: 0;
     height: 100vh;
     width: 100vw;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    background-color: #202124;
+    color: #AEC1BB;
 }
 
 .principal {
@@ -18,7 +22,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: red;
     height: 100vh;
     width: 100vw;
 }
@@ -32,16 +35,24 @@ body {
     flex-direction: row;
     height: 5vh;
     width: 100vw;
-    background-color: aqua;
+
 }
 
 .arribaIzq {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 5vh;
     width: 30vw;
-    background-color: chartreuse;
+
+}
+
+.sobreGoogle {
+    margin: 0 .5em 0 1em;
+}
+
+.tienda {
+    margin: 0 .5em;
 }
 
 .arribaCent {
@@ -50,16 +61,44 @@ body {
     justify-content: center;
     height: 5vh;
     width: 40vw;
-    background-color: crimson;
+
 }
+
+.gmail{
+    padding-left: 1em;
+}
+
+.imagenes {
+    padding-left: 1em;
+}
+
+.appGoogle {
+    margin: .5em;
+    padding: .6em;
+    height: 1em;
+    width: 1em;
+    background-image: url(../img/appsGoogle.jpg);
+    background-size: cover;
+}
+
+.perfil {
+    height: 1em;
+    width: 1em;
+    padding: .6em;
+    margin-right: .5em;
+    background-image: url(../img/yo.png);
+    background-size: cover;
+}
+/*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
+/*align-items: center; flex-start, flex-end, center, stretch, baseline*/
 
 .arribaDer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     height: 5vh;
     width: 30vw;
-    background-color: lightgreen;
+
 }
 
 /* styles del centro */
@@ -67,27 +106,64 @@ body {
     display: flex;
     height: 85vh;
     width: 100vw;
-    background-color: blue;
+
 }
 
 .centroIzq {
     display: flex;
     height: 85vh;
     width: 30vw;
-    background-color: aqua;
+
 }
 
+/*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
+/*align-items: center; flex-start, flex-end, center, stretch, baseline*/
+/*flex-direction*/
 .centroCent {
     display: flex;
     height: 85vh;
     width: 40vw;
+
+    flex-direction: column;
+}
+
+.logo{
+    height: 22em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+img {
+    height: 6.75em;
+    width: 19em;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25em;
+    width: 38vw;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38vw;
+    height: 2.74em;
+    border: 1px solid #AEC1BB;
+    border-radius: 5em;
 }
 
 .centroDer {
     display: flex;
     height: 85vh;
     width: 30vw;
-    background-color:aqua;
+
 }
 
 
