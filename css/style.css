@@ -12,11 +12,23 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     background-color: #202124;
     color: #AEC1BB;
 }
 
+a {
+    all: unset;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    all:unset;
+    cursor: pointer;
+}
 .principal {
     display: flex;
     align-items: center;
@@ -48,10 +60,12 @@ body {
 }
 
 .sobreGoogle {
+    font-size: 14px;
     margin: 0 .5em 0 1em;
 }
 
 .tienda {
+    font-size: 14px;
     margin: 0 .5em;
 }
 
@@ -158,13 +172,17 @@ img {
     border: 1px solid #AEC1BB;
     border-radius: 5em;
 }
+
+.barra:hover {
+    background-color: #303134;
+}
 /*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
 /*align-items: center; flex-start, flex-end, center, stretch, baseline*/
 /*flex-direction*/
 
 .lupa {
     display: flex;
-    padding-left: .5em;
+    padding-left: 1em;
 }
 
 .tamañoLupa {
@@ -183,13 +201,71 @@ img {
 
 .micro {
     display: flex;
-    padding-right: .5em;
+    padding-right: 1em;
 }
 
 .tamañoMicro {
     display: flex;
     height: 2em;
     width: 2em;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.6em;
+    width: 35vw;
+    margin-top: 1.1em;
+    color: #e8eaed;
+}
+
+.buscar {
+    width: 9.1em;
+    height: 2.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.6em .45em;
+    padding: 0 1em;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+}
+
+.buscar:hover {
+    border: 1px solid grey;
+}
+
+.suerte {
+    width: 9.1em;
+    height: 2.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.6em .45em;
+    padding: 0 1em;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+}
+
+.suerte:hover {
+    border: 1px solid grey;
+}
+
+.idioma {
+    display: flex;
+    height: 1.7em;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.idioma1 {
+    padding: .5em;
+    color: #8ab4f8;
 }
 
 .centroDer {
