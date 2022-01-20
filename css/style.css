@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
     background-color: aqua;
 }
@@ -39,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 5vh;
     width: 30vw;
     background-color: chartreuse;
 }
@@ -48,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 5vh;
     width: 40vw;
     background-color: crimson;
 }
@@ -57,26 +57,65 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 5vh;
     width: 30vw;
-    background-color: black;
+    background-color: lightgreen;
 }
 
 /* styles del centro */
 .centro {
     display: flex;
-    height: 70vh;
+    height: 85vh;
     width: 100vw;
     background-color: blue;
 }
+
+.centroIzq {
+    display: flex;
+    height: 85vh;
+    width: 30vw;
+    background-color: aqua;
+}
+
+.centroCent {
+    display: flex;
+    height: 85vh;
+    width: 40vw;
+}
+
+.centroDer {
+    display: flex;
+    height: 85vh;
+    width: 30vw;
+    background-color:aqua;
+}
+
+
 
 
 /* styles de abajo*/
 .abajo {
     display: flex;
-    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10vh;
     width: 100vw;
     background-color: burlywood;
+}
+
+.abajoTop {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.abajoBot {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(117, 116, 116);
 }
 
 
