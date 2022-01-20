@@ -291,9 +291,13 @@ img {
 
 .abajoTop {
     display: flex;
+    align-items: center;
     height: 5vh;
     width: 100vw;
-    background-color: gray;
+    background-color: #171717;
+    font-size: 15px;
+    color: #9AA0A6;
+    padding-left: 1.8em;
 }
 
 .abajoBot {
