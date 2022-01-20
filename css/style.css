@@ -1,0 +1,82 @@
+/*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
+/*align-items: center; flex-start, flex-end, center, stretch, baseline*/
+/*flex-direction: row; row, column, row-reverse, column-reverse*/
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*styles de arriba*/
+.arriba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.arribaIzq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 30vw;
+    background-color: chartreuse;
+}
+
+.arribaCent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 40vw;
+    background-color: crimson;
+}
+
+.arribaDer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 30vw;
+    background-color: black;
+}
+
+/* styles del centro */
+.centro {
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+
+/* styles de abajo*/
+.abajo {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    background-color: burlywood;
+}
+
+
