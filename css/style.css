@@ -56,7 +56,6 @@ button{
     justify-content: flex-start;
     height: 5vh;
     width: 30vw;
-
 }
 
 .sobreGoogle {
@@ -84,6 +83,7 @@ button{
 
 .imagenes {
     padding-left: 1em;
+    padding-right: 1em;
 }
 
 .appGoogle {
@@ -103,8 +103,6 @@ button{
     background-image: url(../img/yo.png);
     background-size: cover;
 }
-/*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
-/*align-items: center; flex-start, flex-end, center, stretch, baseline*/
 
 .arribaDer {
     display: flex;
@@ -118,24 +116,21 @@ button{
 /* styles del centro */
 .centro {
     display: flex;
-    height: 85vh;
+    height: 84vh;
     width: 100vw;
 
 }
 
 .centroIzq {
     display: flex;
-    height: 85vh;
+    height: 84vh;
     width: 30vw;
 
 }
 
-/*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
-/*align-items: center; flex-start, flex-end, center, stretch, baseline*/
-/*flex-direction*/
 .centroCent {
     display: flex;
-    height: 85vh;
+    height: 84vh;
     width: 40vw;
 
     flex-direction: column;
@@ -168,7 +163,7 @@ img {
     align-items: center;
     justify-content: center;
     width: 38vw;
-    height: 3em;
+    height: 3.5em;
     border: 1px solid #AEC1BB;
     border-radius: 5em;
 }
@@ -176,9 +171,6 @@ img {
 .barra:hover {
     background-color: #303134;
 }
-/*justify-content: center; flex-content, flex-end, center, space-between, space-arround*/
-/*align-items: center; flex-start, flex-end, center, stretch, baseline*/
-/*flex-direction*/
 
 .lupa {
     display: flex;
@@ -270,13 +262,10 @@ img {
 
 .centroDer {
     display: flex;
-    height: 85vh;
+    height: 84vh;
     width: 30vw;
 
 }
-
-
-
 
 /* styles de abajo*/
 .abajo {
@@ -286,7 +275,7 @@ img {
     flex-direction: column;
     height: 10vh;
     width: 100vw;
-    background-color: burlywood;
+    box-sizing: border-box;
 }
 
 .abajoTop {
@@ -297,14 +286,69 @@ img {
     background-color: #171717;
     font-size: 15px;
     color: #9AA0A6;
-    padding-left: 1.8em;
+    box-sizing: border-box;
+    padding: 1.8em;
+    border-bottom: 1px solid #212327;
 }
 
 .abajoBot {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 5vh;
     width: 100vw;
-    background-color: rgb(117, 116, 116);
+    font-size: 14px;
+    background-color: #171717;
+    padding: 1em;
+    box-sizing: border-box;
+    color: #9AA0A6;
 }
 
+.abajoBotIzq {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5vh;
+    width: 30vw;
+}
+
+.public {
+    padding: 1em;
+}
+
+.empresa {
+    padding: 1em;
+}
+
+.comoFunciona {
+    padding: 1em;
+}
+
+.abajoBotCent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 40vw;
+}
+
+.abajoBotDer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5vh;
+    width: 30vw;
+}
+
+.privacidad {
+    padding: 1em;
+}
+
+.terminos {
+    padding: 1em;
+}
+
+.config {
+    padding: 1em;
+}
 
